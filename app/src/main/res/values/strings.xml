@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BasicKotlin</string>
+    <string name="item">Nhiệm vụ</string>
+    <string name="x_a_xong">Xóa đã xong</string>
+    <string name="to_do_list_title">TO DO LIST</string>
+    <string name="Add">Thêm</string>
+</resources>
