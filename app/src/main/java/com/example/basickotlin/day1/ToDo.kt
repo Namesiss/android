@@ -1,4 +1,4 @@
-package com.example.basickotlin
+package com.example.basickotlin.day1
 
 data class ToDo(
     var title: String,

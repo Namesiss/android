@@ -1,31 +1,32 @@
 package com.example.basickotlin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.LinearLayoutManager
+import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
+import com.example.basickotlin.day1.MainActivity as M1
+import com.example.basickotlin.day2.MainActivity as M2
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var toDoAdapter: ToDoAdapter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        toDoAdapter = ToDoAdapter(mutableListOf())
-        rvTodoItems.adapter = toDoAdapter
-        rvTodoItems.layoutManager = LinearLayoutManager(this)
 
-        btnAdd.setOnClickListener {
-            val tdTitle = textTodo.text.toString()
-            println(tdTitle)
-            if(tdTitle.isNotEmpty()) {
-                val todo = ToDo(tdTitle)
-                toDoAdapter.addToDo(todo)
-                textTodo.text.clear()
+        val listener = View.OnClickListener { view ->
+            when(view.getId()) {
+                R.id.btnDay1 ->
+                    startActivity(Intent(this, M1::class.java))
+                R.id.btnDay2 ->
+                    startActivity(Intent(this, M2::class.java))
             }
         }
 
-        btnDelete.setOnClickListener {
-            toDoAdapter.deleteDoneTodos()
-        }
+        btnDay1.setOnClickListener(listener)
+        btnDay2.setOnClickListener(listener)
+        btnDay3.setOnClickListener(listener)
     }
+
+
 }

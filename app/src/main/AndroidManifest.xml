@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicKotlin">
+        <activity android:name=".day3.MainActivity"></activity>
+        <activity android:name=".day2.SecondaryActivity" />
+        <activity android:name=".day2.MainActivity" />
+        <activity android:name=".day1.MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,13 +1,13 @@
-package com.example.basickotlin
+package com.example.basickotlin.day1
 
 import android.graphics.Paint.STRIKE_THRU_TEXT_FLAG
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.view.View
-import android.widget.CheckBox
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.basickotlin.R
 import kotlinx.android.synthetic.main.item_todo.view.*
 
 class ToDoAdapter(
