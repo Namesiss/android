@@ -12,4 +12,10 @@
     <color name="primaryColor_1">#b3ffab</color>
     <color name="primaryColor_2">#12fff7</color>
     <color name="dangerColor">#f32013</color>
+    <color name="golden1">#FFBE6A</color>
+    <color name="golden2">#FFD73B</color>
+    <color name="golden3">#FFFF00</color>
+    <color name="text_grey">#FF858585</color>
+    <color name="text_black">#000000</color>
+    <color name="text_white">#FFFFFF</color>
 </resources>
