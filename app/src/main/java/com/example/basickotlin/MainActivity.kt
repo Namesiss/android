@@ -7,6 +7,7 @@ import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import com.example.basickotlin.day1.MainActivity as M1
 import com.example.basickotlin.day2.MainActivity as M2
+import com.example.basickotlin.day3.MainActivity as M3
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,6 +21,8 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent(this, M1::class.java))
                 R.id.btnDay2 ->
                     startActivity(Intent(this, M2::class.java))
+                R.id.btnDay3 ->
+                    startActivity(Intent(this, M3::class.java))
             }
         }
 

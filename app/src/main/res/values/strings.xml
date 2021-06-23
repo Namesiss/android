@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">BasicKotlin</string>
-    <string name="item">Nhiệm vụ</string>
-    <string name="x_a_xong">Xóa đã xong</string>
+    <string name="item">TASK</string>
+    <string name="x_a_xong">DELETE DONE TASKS</string>
     <string name="to_do_list_title">TO DO LIST</string>
-    <string name="Add">Thêm</string>
+    <string name="Add">ADD</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bu_i_1">Day 1</string>
+    <string name="bu_i_2">Day 2</string>
+    <string name="bu_i_3">Day 3</string>
+    <string name="try_to_enable_airplane_mode">Try to enable Airplane mode</string>
 </resources>

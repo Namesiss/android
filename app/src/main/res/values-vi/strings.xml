@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BasicKotlin</string>
+    <string name="item">Nhiệm vụ</string>
+    <string name="x_a_xong">Xóa đã xong</string>
+    <string name="to_do_list_title">Danh sách task</string>
+    <string name="Add">Thêm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Xin chào</string>
+    <string name="bu_i_1">Buổi 1</string>
+    <string name="bu_i_2">Buổi 2</string>
+    <string name="bu_i_3">Buổi 3</string>
+    <string name="try_to_enable_airplane_mode">Thử bật chế độ máy bay đi</string>
+</resources>

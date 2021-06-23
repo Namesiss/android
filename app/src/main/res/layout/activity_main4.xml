@@ -4,15 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".day3.MainActivity">
+    tools:context=".day3.musicplayer.MainActivity">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Day 3 WORK"
+    <ImageView
+        android:id="@+id/songIMG"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtSongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/songIMG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12sp"
+        android:layout_marginTop="24dp"
+        android:progress="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/songIMG" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar">
+
+        <ImageButton
+            android:id="@+id/btnPrev"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_bg"
+            android:src="@drawable/ic_baseline_skip_previous_24" />
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="12sp"
+            android:background="@drawable/btn_bg"
+            android:src="@drawable/ic_baseline_play_circle_filled_24" />
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_bg"
+            android:src="@drawable/ic_baseline_skip_next_24" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

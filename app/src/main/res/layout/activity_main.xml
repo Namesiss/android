@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5sp"
-            android:text="Buổi 1"
+            android:text="@string/bu_i_1"
             app:backgroundTint="#FFBE6A" />
 
 
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5sp"
-            android:text="Buổi 2"
+            android:text="@string/bu_i_2"
             android:textColor="#8F8F8F"
             app:backgroundTint="#FFD73B" />
 
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5sp"
-            android:text="Buổi 3"
+            android:text="@string/bu_i_3"
             android:textColor="#000000"
             app:backgroundTint="#FFFF00" />
     </LinearLayout>
