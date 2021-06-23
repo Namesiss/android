@@ -12,7 +12,7 @@ import android.os.IBinder
 import android.provider.Settings
 import android.widget.Toast
 import com.example.basickotlin.R
-import com.example.basickotlin.day3.broadcast.MainActivity
+
 
 class MyService : Service() {
     lateinit var player : MediaPlayer
