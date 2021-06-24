@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Music Player"
-            android:textColor="@color/text_white"
+            android:textColor="@color/text_black"
             app:backgroundTint="@color/golden1" />
 
         <Button
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Broadcast"
-            android:textColor="@color/text_black"
+            android:textColor="@color/text_white"
             app:backgroundTint="@color/golden3" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

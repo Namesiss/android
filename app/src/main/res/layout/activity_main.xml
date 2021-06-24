@@ -21,35 +21,39 @@
 
         <Button
             android:id="@+id/btnDay1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_margin="5sp"
+            android:layout_margin="1sp"
             android:text="@string/bu_i_1"
             app:backgroundTint="#FFBE6A" />
 
 
         <Button
             android:id="@+id/btnDay2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_margin="5sp"
+            android:layout_margin="1sp"
             android:text="@string/bu_i_2"
             android:textColor="#8F8F8F"
             app:backgroundTint="#FFD73B" />
 
         <Button
             android:id="@+id/btnDay3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5sp"
+            android:layout_margin="1sp"
+            android:layout_weight="1"
             android:text="@string/bu_i_3"
             android:textColor="#000000"
             app:backgroundTint="#FFFF00" />
 
         <Button
             android:id="@+id/btnDay4"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1sp"
             android:layout_weight="1"
             android:text="@string/day_4"
             android:textColor="#000000"
