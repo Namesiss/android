@@ -48,7 +48,6 @@ class ToDoAdapter(
 
     override fun onBindViewHolder(holder: ToDoViewHolder, position: Int) {
         val current = todos[position]
-        println("Titlec current: " + current.title)
         holder.itemView.apply {
             tvToDoTitle.text = current.title
             cbItem.isChecked = current.isChecked

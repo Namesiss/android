@@ -8,6 +8,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import com.example.basickotlin.day1.MainActivity as M1
 import com.example.basickotlin.day2.MainActivity as M2
 import com.example.basickotlin.day3.MainActivity as M3
+import com.example.basickotlin.day4.MainActivity as M4
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,12 +24,15 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent(this, M2::class.java))
                 R.id.btnDay3 ->
                     startActivity(Intent(this, M3::class.java))
+                R.id.btnDay4 ->
+                    startActivity(Intent(this, M4::class.java))
             }
         }
 
         btnDay1.setOnClickListener(listener)
         btnDay2.setOnClickListener(listener)
         btnDay3.setOnClickListener(listener)
+        btnDay4.setOnClickListener(listener)
     }
 
 

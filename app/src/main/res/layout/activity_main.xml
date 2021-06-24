@@ -45,6 +45,15 @@
             android:text="@string/bu_i_3"
             android:textColor="#000000"
             app:backgroundTint="#FFFF00" />
+
+        <Button
+            android:id="@+id/btnDay4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/day_4"
+            android:textColor="#000000"
+            app:backgroundTint="@color/golden1" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
