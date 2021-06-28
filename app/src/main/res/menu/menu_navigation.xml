@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_menu_1"
+        android:title="PAGE1"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+    <item android:id="@+id/item_menu_2"
+        android:title="PAGE2"
+        android:icon="@drawable/ic_baseline_camera_24"/>
+    <item android:id="@+id/item_menu_3"
+        android:title="PAGE3"
+        android:icon="@drawable/ic_baseline_directions_bike_24"/>
+</menu>

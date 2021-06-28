@@ -2,7 +2,7 @@ package com.example.basickotlin.day4
 
 import android.graphics.Bitmap
 
-class Song(
+data class Song(
     var _id : String,
     var title : String,
     var album : String,

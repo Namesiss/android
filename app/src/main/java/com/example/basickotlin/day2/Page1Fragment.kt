@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import com.example.basickotlin.R
 
 
-class BlankFragment : Fragment() {
+class Page1Fragment : Fragment() {
 
     private var TAG: String = "Fragment"
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +24,7 @@ class BlankFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         Log.e(TAG,"onCreateView đã kích hoạt" )
-        return inflater.inflate(R.layout.fragment_blank, container, false)
+        return inflater.inflate(R.layout.fragment_page1, container, false)
     }
 
     override fun onAttach(context: Context) {

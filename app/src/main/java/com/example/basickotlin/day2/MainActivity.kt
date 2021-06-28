@@ -4,14 +4,60 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.widget.Button
+import androidx.viewpager.widget.PagerAdapter
+import androidx.viewpager.widget.ViewPager
+import androidx.viewpager2.widget.ViewPager2
 import com.example.basickotlin.R
+import com.example.basickotlin.databinding.ActivityMain3Binding
+import com.google.android.material.navigation.NavigationBarView
+import com.google.android.material.tabs.TabLayoutMediator
 
 class MainActivity : AppCompatActivity() {
     private var TAG: String = "MainActivity"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main3)
+        val binding = ActivityMain3Binding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+
+        val viewPager = binding.viewPager
+        val navigationView = binding.navigationView
+
+        val adapter = ViewPagerAdapter(supportFragmentManager, lifecycle)
+
+        viewPager.adapter = adapter
+        viewPager.setPageTransformer(ZoomOutPageTransformer())
+
+//        viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
+//            override fun onPageSelected(position: Int) {
+//                when(position){
+//                    0 -> navigationView.menu.findItem(R.id.item_menu_1).setEnabled(true)
+//                    1 -> navigationView.menu.findItem(R.id.item_menu_2).setEnabled(true)
+//                    2 -> navigationView.menu.findItem(R.id.item_menu_3).setEnabled(true)
+//                }
+//            }
+//        }
+//        )
+
+        navigationView.setOnItemSelectedListener(object : NavigationBarView.OnItemSelectedListener{
+            override fun onNavigationItemSelected(item: MenuItem): Boolean {
+                when(item.itemId){
+                    R.id.item_menu_1 -> {
+                        viewPager.setCurrentItem(0)
+                    }
+                    R.id.item_menu_2 -> {
+                        viewPager.setCurrentItem(1)
+                    }
+                    R.id.item_menu_3 -> {
+                        viewPager.setCurrentItem(2)
+                    }
+                }
+                return true
+            }
+
+        })
         Log.e(TAG,"onCreate đã kích hoạt" )
 
         findViewById<Button>(R.id.btn_nav).setOnClickListener {

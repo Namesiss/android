@@ -9,6 +9,7 @@ import com.example.basickotlin.day1.MainActivity as M1
 import com.example.basickotlin.day2.MainActivity as M2
 import com.example.basickotlin.day3.MainActivity as M3
 import com.example.basickotlin.day4.MainActivity as M4
+import com.example.basickotlin.day5.MainActivity as M5
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,6 +27,8 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent(this, M3::class.java))
                 R.id.btnDay4 ->
                     startActivity(Intent(this, M4::class.java))
+                R.id.btnDay5 ->
+                    startActivity(Intent(this, M5::class.java))
             }
         }
 
@@ -33,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         btnDay2.setOnClickListener(listener)
         btnDay3.setOnClickListener(listener)
         btnDay4.setOnClickListener(listener)
+        btnDay5.setOnClickListener(listener)
     }
 
 
