@@ -5,7 +5,7 @@
     android:id="@+id/rlLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".day5.MainActivity"
+    tools:context=".week1.day5.MainActivity"
     android:background="@drawable/animator">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

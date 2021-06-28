@@ -17,53 +17,53 @@
         tools:layout_editor_absoluteY="5dp">
 
         <Button
-            android:id="@+id/btnDay1"
+            android:id="@+id/btnWeek1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1sp"
             android:layout_weight="1"
-            android:text="@string/bu_i_1"
+            android:text="Week 1"
             android:textColor="@color/text_black"
             app:backgroundTint="@color/golden1" />
 
         <Button
-            android:id="@+id/btnDay2"
+            android:id="@+id/btnWeek2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1sp"
             android:layout_weight="1"
-            android:text="@string/bu_i_2"
+            android:text="Week 2"
             android:textColor="#8F8F8F"
             app:backgroundTint="@color/golden2" />
 
-        <Button
-            android:id="@+id/btnDay3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            android:text="@string/bu_i_3"
-            android:textColor="#000000"
-            app:backgroundTint="@color/golden3" />
+<!--        <Button-->
+<!--            android:id="@+id/btnDay3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="1sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/bu_i_3"-->
+<!--            android:textColor="#000000"-->
+<!--            app:backgroundTint="@color/golden3" />-->
 
-        <Button
-            android:id="@+id/btnDay4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            android:text="@string/day_4"
-            android:textColor="#000000"
-            app:backgroundTint="@color/golden4" />
+<!--        <Button-->
+<!--            android:id="@+id/btnDay4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="1sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/day_4"-->
+<!--            android:textColor="#000000"-->
+<!--            app:backgroundTint="@color/golden4" />-->
 
-        <Button
-            android:id="@+id/btnDay5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Day 5"
-            android:textColor="@color/text_black"
-            app:backgroundTint="@color/green1" />
+<!--        <Button-->
+<!--            android:id="@+id/btnDay5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Day 5"-->
+<!--            android:textColor="@color/text_black"-->
+<!--            app:backgroundTint="@color/green1" />-->
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

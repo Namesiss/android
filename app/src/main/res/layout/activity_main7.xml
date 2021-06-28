@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".day3.broadcastreceiver.MainActivity">
+    tools:context=".week1.day3.broadcast.MainActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
