@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".week1.MainActivity">
+    tools:context=".week2.MainActivity">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="5dp">
 
         <Button
-            android:id="@+id/btnW1Day1"
+            android:id="@+id/btnW2Day1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1sp"
@@ -26,7 +26,7 @@
             app:backgroundTint="@color/golden1" />
 
         <Button
-            android:id="@+id/btnW1Day2"
+            android:id="@+id/btnW2Day2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1sp"
@@ -36,7 +36,7 @@
             app:backgroundTint="@color/golden2" />
 
         <Button
-            android:id="@+id/btnW1Day3"
+            android:id="@+id/btnW2Day3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1sp"
@@ -46,7 +46,7 @@
             app:backgroundTint="@color/golden3" />
 
         <Button
-            android:id="@+id/btnW1Day4"
+            android:id="@+id/btnW2Day4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1sp"
@@ -56,7 +56,7 @@
             app:backgroundTint="@color/golden4" />
 
         <Button
-            android:id="@+id/btnW1Day5"
+            android:id="@+id/btnW2Day5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -64,4 +64,5 @@
             android:textColor="@color/text_black"
             app:backgroundTint="@color/green1" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

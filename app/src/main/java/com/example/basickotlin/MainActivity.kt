@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import com.example.basickotlin.week1.MainActivity as W1
-import com.example.basickotlin.week2.day1.MainActivity as W2
+import com.example.basickotlin.week2.MainActivity as W2
 
 class MainActivity : AppCompatActivity() {
 

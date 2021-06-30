@@ -17,24 +17,24 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main12)
         val listener = View.OnClickListener { view ->
             when(view.getId()) {
-                R.id.btnDay1 ->
+                R.id.btnW1Day1 ->
                     startActivity(Intent(this, M1::class.java))
-                R.id.btnDay2 ->
+                R.id.btnW1Day2 ->
                     startActivity(Intent(this, M2::class.java))
-                R.id.btnDay3 ->
+                R.id.btnW1Day3 ->
                     startActivity(Intent(this,  M3::class.java))
-                R.id.btnDay4 ->
+                R.id.btnW1Day4 ->
                     startActivity(Intent(this, M4::class.java))
-                R.id.btnDay5 ->
+                R.id.btnW1Day5 ->
                     startActivity(Intent(this, M5::class.java))
             }
         }
 
-        btnDay1.setOnClickListener(listener)
-        btnDay2.setOnClickListener(listener)
-        btnDay3.setOnClickListener(listener)
-        btnDay4.setOnClickListener(listener)
-        btnDay5.setOnClickListener(listener)
+        btnW1Day1.setOnClickListener(listener)
+        btnW1Day2.setOnClickListener(listener)
+        btnW1Day3.setOnClickListener(listener)
+        btnW1Day4.setOnClickListener(listener)
+        btnW1Day5.setOnClickListener(listener)
     }
 
 }
